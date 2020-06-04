@@ -30,6 +30,10 @@ restar =(x,y)=>{
     let res=x-y;
     console.log("resta:"+res);
 }
+dividir =(x,y)=>{
+    let res=x/y;
+    console.log("división:"+res);
+}
 procesar = (fn)=>{
     fn(12,13);
 }
